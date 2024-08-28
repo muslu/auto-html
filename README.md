@@ -1,2 +1,2 @@
-1
+2
 Webhook ile otomatik sunucuda yayına alma
