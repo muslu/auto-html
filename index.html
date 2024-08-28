@@ -4,7 +4,7 @@
   </head>
   <body>
 
-    <h1>h1333</h1>
+    <h1>h1</h1>
     <h2>h2</h2>
     <p>files from github webhook</p>
     <p id="clock"></p>
@@ -12,26 +12,16 @@
     <p><a href="/muslu.html" target="_blank">muslu</a></p>
 
     <script>
-      // Şu anki tarihi ve saati al
-const now = new Date();
-
-// Saat, dakika ve saniyeyi al
-const hours = now.getHours();
-const minutes = now.getMinutes();
-const seconds = now.getSeconds();
-
-// Saat formatlama (0-9 saat, dakika ve saniyeler için başına 0 ekle)
-const formattedHours = hours < 10 ? '0' + hours : hours;
-const formattedMinutes = minutes < 10 ? '0' + minutes : minutes;
-const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
-
-// Şu anki saati formatla
-const currentTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-
-// Saati konsola yazdır
-console.log("Şu anki saat:", currentTime);
-  document.getElementById('clock').textContent = currentTime;
-
+        const now = new Date();
+        const hours = now.getHours();
+        const minutes = now.getMinutes();
+        const seconds = now.getSeconds();
+        const formattedHours = hours < 10 ? '0' + hours : hours;
+        const formattedMinutes = minutes < 10 ? '0' + minutes : minutes;
+        const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+        const currentTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+        console.log("Şu anki saat:", currentTime);
+        document.getElementById('clock').textContent = currentTime;
     </script>
   </body>
 </html>
