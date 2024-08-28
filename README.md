@@ -1,1 +1,1 @@
-33Webhook ile otomatik sunucuda yayına alma
+Webhook ile otomatik sunucuda yayına alma
