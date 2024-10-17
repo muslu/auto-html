@@ -1,2 +1,2 @@
-12345
+1
 Webhook ile otomatik sunucuda yayına alma
